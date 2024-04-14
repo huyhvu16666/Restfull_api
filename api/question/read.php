@@ -32,4 +32,3 @@ include_once('../../model/question.php');
         }
         echo json_encode($question_array);
     }
-?>

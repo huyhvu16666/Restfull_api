@@ -28,4 +28,3 @@ $question_item = array(
 );
 
 print_r(json_encode($question_item));
-?>
