@@ -74,10 +74,7 @@ class Question
 
     public function update()
     {
-        $query = "UPDATE  cauhoi 
-        SET title=:title ,cau_a=:cau_a ,cau_b=:cau_b ,
-        cau_c=:cau_c, cau_d=:cau_d, cau_dung=:cau_dung 
-        WHERE id_cauhoi=:id_cauhoi";
+        $query = "UPDATE  cauhoi SET title=:title ,cau_a=:cau_a ,cau_b=:cau_b ,cau_c=:cau_c, cau_d=:cau_d, cau_dung=:cau_dung WHERE id_cauhoi=:id_cauhoi";
         $stmt = $this->conn->prepare($query);
 
         //clean data

@@ -29,7 +29,7 @@ if ($num > 0) {
             'cau_b' => $cau_b,
             'cau_c' => $cau_c,
             'cau_d' => $cau_d,
-            'cau_dung' => $cau_dung
+            'cau_dung' => $cau_dung,
         );
         array_push($question_array['question'], $question_item);
     }
